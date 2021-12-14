@@ -1,0 +1,38 @@
+{
+  "development": {
+    "username": "docker",
+    "password": "docker",
+    "database": "teste",
+    "host": "bd_teste",
+    "dialect": "mysql",
+    "define": {
+        "underscored": true,
+        "timestamps": true,
+        "paranoid": true
+        }
+    },
+  "test": {
+    "username": "docker",
+    "password": "docker",
+    "database": "teste",
+    "host": "bd_teste",
+    "dialect": "mysql",
+    "define": {
+        "underscored": true,
+        "timestamps": true,
+        "paranoid": true
+        }
+  },
+  "production": {
+    "username": "docker",
+    "password": "docker",
+    "database": "teste",
+    "host": "bd_teste",
+    "dialect": "mysql",
+    "define": {
+        "underscored": true,
+        "timestamps": true,
+        "paranoid": true
+        }
+  }
+}
